@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "myFont";
+    src: url(../fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "myFont", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.blg-preview-card-container{
+    margin: 15px;
+    padding: 15px 15px 20px 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 7px 4px 0px rgba(0, 0, 0, 1);
+    max-width: 320px;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+
+}
+.blg-preview-card-container img{
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+.blg-preview-card-details{
+    
+}
+.blg-preview-card-details header h1{
+    font-size: 16px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    width: max-content;
+
+}
+.blg-preview-card-details header p{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(220, 15%, 55%);
+
+}
+
+.blg-preview-card-description h2{
+    font-size: 17px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 800;
+
+}
+.blg-preview-card-description h2:hover{
+    font-size: 17px;
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    font-weight: 800;
+
+}
+.blg-preview-card-description p{
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 500;
+}
+footer.blg-author{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.blg-author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+.blg-author p{
+    margin-left: 5px;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+
+}
