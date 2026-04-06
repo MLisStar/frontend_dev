@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "myFont";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "myFont", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+a{
+    text-decoration: none;;
+}
+.social-link-container{
+    background-color: hsl(0, 0%, 12%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    max-width: 320px;
+    width: calc(100% - 30px);
+    border-radius: 15px;
+    overflow-wrap: anywhere;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+figure{
+    width: 100%;
+    text-align: center;
+}
+figure img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+figure h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+figure span{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+
+
+}
+figure p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 5px 25px 5px;
+    text-align: center;
+    width: 80%;
+
+}
+.social-links a{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+}
+.social-links a:focus,
+.social-links a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
