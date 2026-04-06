@@ -44,13 +44,12 @@ a {
 .blg-preview-card-container img{
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 15px;
 
 
 }
-.blg-preview-card-details{
-    
-}
-.blg-preview-card-details header h1{
+
+.blg-preview-card-details header .category{
     font-size: 16px;
     font-weight: 800;
     background-color: hsl(47, 88%, 63%);
