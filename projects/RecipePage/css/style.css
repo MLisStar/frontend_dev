@@ -53,13 +53,13 @@ figure{
     margin: 10px 0px;
 
 }
-/* .recipe-intro h2{
+.recipe-intro h2{
     font-family: "outfit", serif;
     font-weight: 700;
     padding-left: 20px;
     margin-left: 0px;
     color: hsl(332, 51%, 32%);
-} */
+}
 .recipe-intro ul li{
     font-family: "outfit", serif;
     font-weight: 400;
